@@ -36,7 +36,7 @@ function App() {
         />
       </div>
       <div className="text-center">
-        <Button className="botonNaranja mb-5" variant="warning">
+        <Button className="botonNaranja mb-5" variant="warning" onClick={consultarAPI}>
           Obtener frase
         </Button>
       </div>
